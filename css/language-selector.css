@@ -1,0 +1,96 @@
+            /* ----------------------------------------------------------------------------------------
+            Body
+            -----------------------------------------------------------------------------------------*/
+            body {
+              font-family: arial;
+              font-size: 12px;
+              color: #262c33;
+            }
+
+            /* ----------------------------------------------------------------------------------------
+            AJAX Article Throbber
+            -----------------------------------------------------------------------------------------*/
+            #throbber-container {
+              height: 20px!important;
+            }
+            #throbber {
+              text-align: left!important;
+              font-family: arial;
+              font-size: 12px;
+              color: #262c33;
+              font-weight: bold;
+              height: 20px;
+              display: none;
+              background: url(../images/throbber.gif) no-repeat;
+              background-position: 0px 0px;
+              padding-left: 20px;
+            }
+
+            /* ----------------------------------------------------------------------------------------
+            Language Selector
+            -----------------------------------------------------------------------------------------*/
+            #flags{
+              padding-bottom: 30px;
+            }
+            #flags ul{
+              list-style: none;
+              margin-left: 0px;
+              padding-left: 0px;
+            }
+            #flags ul li{
+              float: left;
+              margin-right: 10px;
+            }
+            #flags a{
+              padding-left: 20px;
+              text-decoration: none;
+              font-family: arial;
+              font-size: 12px;
+              color: #222222;
+              line-height: 20px;
+              background-position: 0px 0px!important;
+              padding-left: 20px;
+            }
+            #flags a.load{
+              outline:none;
+              color: #a0a8b2;
+              background: url(../images/throbber.gif) no-repeat;
+            }
+            #flags a.finish{
+              outline:none;
+              background: url(../images/icon_check.gif) no-repeat;
+            }
+            #flags a:hover{
+              text-decoration: underline;
+            }
+
+            /* ----------------------------------------------------------------------------------------
+            Header Contact AD
+            -----------------------------------------------------------------------------------------*/
+            #contact-ad {
+                top: 0px; right: 50px; position: absolute;
+                background: transparent url('../images/contact-ad-right.png') no-repeat scroll top right;
+                color: #fff;
+                display: block;
+                float: left;
+                font: normal 17px arial;
+                height: 35px;
+                margin-right: 0px;
+                padding-right: 10px; /* sliding doors padding */
+                text-decoration: none;
+            }
+            #contact-ad img {
+              position: relative;
+              margin-right: 6px;
+              top: 5px;
+            }
+            #contact-ad span {
+                background: transparent url('../images/contact-ad-left.png') no-repeat;
+                display: block;
+                line-height: 25px;
+                padding: 5px 0px 5px 10px;
+                vertical-align: top;
+            } 		
+            #contact-ad span.ico {
+                padding: 0px 0px 10px 10px;
+            } 		

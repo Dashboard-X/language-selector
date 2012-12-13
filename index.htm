@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+    <head>
+        <title>Language Selector a la Google (Language API)</title>
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <meta http-equiv="Content-Script-Type" content="text/javascript" />
+        <meta http-equiv="content-language" content="de"> 
+        <meta name="robots" content="index,follow" />
+        <link rel="stylesheet" href="css/language-selector.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script> 
+        <script type="text/javascript" src="js/jquery.cookie.js"></script> 
+        <script type="text/javascript" src="js/jquery.translate-1.3.9.min.js"></script>
+        <script type="text/javascript" src="js/language-selector-handler.js"></script>
+    </head>
+    <body>
+        <!-- start: language selector special contact area -->
+        <div>
+            <div id="contact-ad"><span class="ico"><img src="images/contact-ad-icon-phone.gif">Some Info here</span></div>  
+        </div>		
+        <!-- end: language selector special contact area -->
+
+
+        <!-- start: language selector flags -->
+        <div id="flags">
+          <ul>
+           <li><a href="#" id="ar" title="Arabic">AR</a></li>
+           <li><a href="#" id="de" title="Deutsch">DE</a></li>
+           <li><a href="#" id="en" title="English">EN</a></li>
+           <li><a href="#" id="es" title="Español">ES</a></li>
+           <li><a href="#" id="fr" title="French">FR</a></li>
+           <li><a href="#" id="it" title="Italian">IT</a></li>
+           <li><a href="#" id="ja" title="Japanese">JA</a></li>
+           <li><a href="#" id="ko" title="Korean">KO</a></li>
+           <li><a href="#" id="pt-PT" title="Portuguese">PT</a></li>
+           <li><a href="#" id="zh-CN" title="Chinese Simplified">zh-CN</a></li>
+           <li><a href="#" id="zh-TW" title="Chinese Traditional">zh-TW</a></li>
+          </ul>
+        </div>			
+        <div style="clear: both">&nbsp;</div>
+        <!-- end: language selector flags -->
+
+
+        <!-- start: regular content area -->
+        <div id="article">
+        <!-- start: language selector content loading throbber -->
+        <div id="throbber-container">
+          <div id="throbber">Translation is running! Please wait...</div>
+        </div>
+        <!-- end: language selector content loading throbber -->
+        <p>
+          Hallo lieber Besucher! Ich bin eine internationale Website!
+        </p>
+        <!-- end: regular content area -->
+    </body>
+</html>
+
+
